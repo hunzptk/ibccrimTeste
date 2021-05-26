@@ -1,0 +1,337 @@
+.header-nav{
+  display: inline-flex;
+}
+
+.navbar {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-entry {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: var(--custom-orange) !important;
+  border-color: var(--custom-orange) !important;
+}
+
+.header-link {
+  color: black;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.header-link:hover {
+  color: var(--custom-orange);
+}
+
+.iconify {
+  font-size: 30px;
+}
+
+.cart {
+  position: relative;
+}
+
+.cart .contagem-cart {
+  position:absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--custom-orange);
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 15px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.main-content {
+  background-color: var(--light-gray);
+  padding: 5rem 5rem 5rem 5rem;
+}
+
+.main-menu {
+  display: flex;
+  border-bottom: 1px solid var(--medium-gray);
+  padding-left: 0px;
+  padding-bottom: 0.8rem;
+}
+
+.main-link {
+  color: black;
+  margin-right: 1.8rem;
+  justify-content: left;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.main-link.active {
+  border-bottom: 3px solid var(--custom-orange);
+  padding-bottom: 0.8rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+}
+
+.card-curso p {
+  font-weight: 600;
+}
+
+.link-curso {
+  color: black;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.card-curso .duracao {
+  font-weight: 200;
+  font-size: 12px;
+}
+.card-curso .duracao strong{
+  font-weight: bold;
+}
+
+.card-curso .titleValor {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.card-curso .text-valor {
+  font-size: 10px;
+}
+
+.card-curso .vcolor {
+  color: var(--custom-orange)
+}
+
+.card-curso .vcolor strong {
+  font-size: 10px;
+}
+
+.card {
+  height: 25rem !important;
+  width: 20rem !important;
+  margin: 0 auto;
+}
+
+.opinioes {
+  background-color: var(--medium-gray);
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 3rem 2rem 3rem;
+}
+
+.newsletter {
+  background-color: var(--light-gray);
+  height: 25rem;
+}
+
+.newsletter-email {
+  text-align: center;
+  padding: 8rem 25rem 5rem 25rem;
+  color: #fff;
+}
+
+.newsletter .newsletter-email .form {
+  margin: 0 auto;
+  justify-content: center;
+  width: 30rem;
+  }
+
+.btn-lg {
+  width: 10rem;
+  height: 2.5rem;
+  font-size: 18px !important;
+  padding: 0 !important;
+}
+
+.bg-footer {
+  background-color: var(--dark-gray);
+  display: grid;
+  padding: 3rem 4rem;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: flex-end;
+}
+
+.icon-footer {
+  margin-left: -12px;
+}
+
+.w-footer {
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
+.icone-media {
+  text-align: right;
+}
+
+
+footer .bg-footer .info-footer .iconify {
+  font-size: 15px;
+}
+
+footer .bg-footer .copyr {
+  font-size: 15px;
+  text-align: center;
+}
+
+footer .bg-footer .ic-smedia .siga-footer {
+  margin-left: auto;
+  margin-bottom: 3.5rem;
+  text-align: left;
+}
+
+footer .siga {
+  font-size: 15px;
+  margin-left: 85px;
+  text-align: center;
+}
+
+footer .ic-smedia {
+  margin-left: auto;
+  text-align: right;
+}
+
+/*lei-anticrime.html*/
+
+.sobre-titulo {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.conteudo-curso {
+  margin-left: 14rem;
+  margin-right: 17rem;
+}
+
+.about-c {
+  display: inline-flex;
+  color: var(--dark-gray);
+  padding-left: 0;
+}
+
+.about-cs {
+  display: inline-flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.c-icon {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 3px;
+}
+
+.about-cs .qnt-capt {
+  display: inline-flex;
+  position: relative;
+  text-align: center;
+  background-color: var(--custom-orange);
+  height: 22px;
+  width: 22px;
+  font-size: 15px;
+  border-radius: 50%;
+  color: #fff;
+  padding-left: 6px;
+  margin-left: 10px;
+}
+
+.about-cs .qnt-aula {
+  display: inline-flex;
+  position: relative;
+  text-align: center;
+  background-color: var(--custom-orange);
+  height: 22px;
+  width: 22px;
+  font-size: 15px;
+  border-radius: 50%;
+  color: #fff;
+  padding-left: 2px;
+}
+
+.about-cs .cap {
+  margin-left: 5px;
+}
+
+.sobre-texto h3 {
+  margin-top: 2rem ;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.apres-buy {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.title-ap {
+  font-size: 20px;
+}
+
+.img-vid {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+/*conteudo-programatico*/
+
+.text-conteudo {
+  margin-left: 4rem;
+  margin-right: 8rem;
+}
+
+.collapsed {
+  background-color: var(--medium-gray) !important;
+}
+
+.min-vid {
+  font-size: 12px;
+  color: var(--medium-gray);
+  margin-left: 1.5rem;
+}
+
+.accordion-collapse .iconify {
+  font-size: 15px;
+  margin-right: 10px;
+  color: var(--medium-gray);
+}
+
+/*Docente*/
+
+.sobre-doce {
+  margin-top: 1.5rem;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.sobre-doce-ex {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 25px;
+}
